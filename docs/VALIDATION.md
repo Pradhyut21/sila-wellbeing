@@ -17,3 +17,9 @@ The available care-team payload disappeared after revocation; previously recorde
 The downloadable receipt was separately checked: approving access preferences alone did not export a score or physical-health context. It explicitly labels the JSON as a synthetic demonstration, not a validated FHIR resource or evidence of care.
 
 The [browser result record](browser-results.json) contains the checked scenarios. These functional checks do not establish clinical effectiveness, population fairness, professional usability, production security, or regulatory approval.
+
+## Narrated demo
+
+The final MP4 is 145.916667 seconds, 1920 × 1080 at 24 fps, with H.264 video and AAC audio. Its size is 12,524,532 bytes. Eight decoded scenes were inspected; the audio and fast-start metadata were verified. See [video validation metadata](video-validation.json).
+
+The local browser player loaded the video, played it, and sought to the urgent-help chapter successfully. All eight chapter controls were present, and no JavaScript errors or duplicate default caption track appeared. The local preview server supports byte ranges for seeking.
