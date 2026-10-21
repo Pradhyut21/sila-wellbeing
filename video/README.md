@@ -17,7 +17,7 @@ npm install
 npm run check
 npm run dev
 # or: npx hyperframes@0.8.181 preview --background
-npm run render -- --quality delivery --fps 24 --output SILA-demo.mp4
+npm run render -- --quality delivery --fps 24 --workers 1 --low-memory-mode --output SILA-demo.mp4
 ```
 
 Open the Studio URL printed by the preview command. Its timeline supports editing text, media and clip timing. `index.html` mounts the eight editable scenes in `compositions/frames/`; each scene registers one seekable timeline. Audio and subtitle clips are owned by the root composition. `SCRIPT.md`, `STORYBOARD.md` and `frame.md` record the content and visual direction.

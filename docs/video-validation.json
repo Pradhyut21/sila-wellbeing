@@ -1,0 +1,35 @@
+{
+  "artifact": "SILA-demo.mp4",
+  "duration_seconds": 145.916667,
+  "under_three_minutes": true,
+  "size_bytes": 12524532,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "pixel_format": "yuv420p"
+  },
+  "audio": {
+    "codec": "aac",
+    "duration_seconds": 145.916,
+    "mean_volume_db": -23.5,
+    "max_volume_db": -1.5
+  },
+  "faststart": true,
+  "decoded_sample_seconds": [
+    8,
+    24,
+    41,
+    58,
+    78,
+    97,
+    118,
+    139
+  ],
+  "decoded_samples_inspected": true,
+  "source_check": "0 errors and 0 warnings",
+  "subtitles": "Burned-in English phrases plus optional SRT/WebVTT; phrase timings estimated",
+  "render_profile": "HyperFrames0.8.181 delivery,1worker low-memory streaming",
+  "render_seconds": 331.3
+}
