@@ -41,6 +41,14 @@ npm run check
 
 Static assets are in `dist/`. The same application can be hosted on any static web server. The Sites deployment manifest is specific to the linked hosted demo; remove its project identity before creating an unrelated deployment.
 
+## Deploy to Vercel
+
+Import this repository and keep **Root Directory at the repository root** (the directory containing `package.json`, `vercel.json` and `dist/`). The committed `vercel.json` selects the Other framework preset, skips dependency installation and compilation, and serves the existing `dist/` assets.
+
+The homepage is `/` and the narrated demo is `/demo.html`. Application navigation uses URL fragments such as `/#support`, so no catch-all rewrite is needed. No environment variables or running Node server are required on Vercel.
+
+If an earlier deployment returns 404, verify the selected repository/root directory, then deploy the latest `main` commit. Check both the generated `.vercel.app` URL and any custom domain: a custom-domain-only failure needs domain configuration rather than application changes. See [Vercel static builds](https://vercel.com/docs/builds#skipping-the-build-step) and [project configuration](https://vercel.com/docs/project-configuration/vercel-json).
+
 ## Implementation and evidence
 
 The current build is a static browser prototype with in-memory state. Switching between the participant and care-team views demonstrates a workflow; it does **not** implement authenticated roles, secure multi-user storage, a tamper-proof audit log, a staffed crisis response or healthcare integration. Do not enter real health information.
