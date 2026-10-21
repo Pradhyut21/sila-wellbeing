@@ -1,0 +1,37 @@
+<template>
+<style>@font-face{font-family:"Source Serif 4";src:url("assets/fonts/SourceSerif4.ttf") format("truetype");font-weight:200 900;} @font-face{font-family:"Inter";src:url("assets/fonts/Inter.ttf") format("truetype");font-weight:100 900;} @font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono.ttf") format("truetype");font-weight:100 800;}
+ #root{position:absolute;inset:0;width:100%;height:100%;container-type:size;color:#f7f6ef;font-family:"Inter";}
+ [class="01-promise-ground"]{position:absolute;inset:0;background:#153f3b;}
+ [class="01-promise-top"]{position:absolute;left:96px;top:54px;width:1728px;height:40px;display:flex;align-items:center;justify-content:space-between;font-family:"JetBrains Mono";font-size:23px;letter-spacing:.09em;line-height:1.3;color:#f7f6ef;}
+ [class="01-promise-counter"]{font-family:"JetBrains Mono";font-size:23px;}
+ [class="01-promise-line"]{position:absolute;left:96px;top:108px;width:1728px;height:2px;background:#e7eadf;}
+ [class="01-promise-title"]{position:absolute;left:96px;top:125px;width:1728px;font-family:"Source Serif 4";font-size:83px;font-weight:500;letter-spacing:-.02em;line-height:1.03;margin:0;}
+ [class="01-promise-plate"]{position:absolute;left:96px;top:235px;width:1056px;height:660px;border:2px solid #e7eadf;border-radius:8px;overflow:hidden;background:#f7f6ef;}
+ [class="01-promise-screen"],[class="01-promise-question"],[class="01-promise-result"]{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain;}
+ [class="01-promise-notes"]{position:absolute;left:1232px;top:280px;width:580px;color:#f7f6ef;}
+ [class="01-promise-tag"]{font-family:"JetBrains Mono";font-size:22px;letter-spacing:.1em;text-transform:uppercase;color:#d5f083;margin:0 0 32px;}
+ [class="01-promise-label1"],[class="01-promise-label2"]{font-family:"Source Serif 4";font-size:54px;font-weight:500;letter-spacing:-.02em;line-height:1.1;margin:0 0 34px;}
+ [class="01-promise-note"]{font-family:"Inter";font-size:28px;font-weight:400;line-height:1.4;color:#e7eadf;margin:0;}
+ [class="01-promise-rule"]{height:2px;width:100%;background:#e7eadf;margin:34px 0;}
+ </style>
+<div data-hf-id="hf-i414" id="root" data-composition-id="01-promise" data-width="1920" data-height="1080" data-duration="15.877">
+ <div data-hf-id="hf-7ku0" id="frame-01-promise-background" class="clip" data-start="0" data-duration="15.877" data-track-index="0"><div data-hf-id="hf-go0n" class="01-promise-ground"></div></div>
+ <div data-hf-id="hf-6lbj" class="01-promise-top"><span data-hf-id="hf-qwjx">SILA / SYNTHETIC PROTOTYPE DEMO</span><span data-hf-id="hf-e08f" class="01-promise-counter">01 / 08</span></div>
+ <div data-hf-id="hf-hibc" class="01-promise-line"></div>
+ <h1 data-hf-id="hf-vlz6" class="01-promise-title">Make the next step visible.</h1>
+ <div data-hf-id="hf-ghqm" class="01-promise-plate"><img data-hf-id="hf-xg5q" class="01-promise-screen" src="assets/overview.png" alt="Actual SILA overview screen with synthetic data"></div>
+ <div data-hf-id="hf-l2et" class="01-promise-notes"><p data-hf-id="hf-8tyn" class="01-promise-tag">SILA / WORKING DEMO</p><p data-hf-id="hf-2zo5" class="01-promise-label1">Early signal</p><p data-hf-id="hf-5gbe" class="01-promise-label2">Human handoff</p><div data-hf-id="hf-oc2k" class="01-promise-rule"></div><p data-hf-id="hf-8p49" class="01-promise-note">Adults 18+ · Abu Dhabi</p></div>
+</div>
+<script>
+ const tl=gsap.timeline({paused:true});
+ tl.fromTo('[class="01-promise-title"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},0);
+ tl.fromTo('[class="01-promise-plate"]',{opacity:0,y:22},{opacity:1,y:0,duration:0.65,ease:'power2.out'},0.2);
+ tl.fromTo('[class="01-promise-tag"]',{opacity:0,y:12},{opacity:1,y:0,duration:0.4},1);
+ tl.fromTo('[class="01-promise-label1"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},3.3);
+ tl.fromTo('[class="01-promise-label2"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},7.2);
+ tl.fromTo('[class="01-promise-rule"]',{scaleX:0,transformOrigin:'left center'},{scaleX:1,duration:0.5},10.8);
+ tl.fromTo('[class="01-promise-note"]',{opacity:0,y:14},{opacity:1,y:0,duration:0.6,ease:'power2.out'},12);
+ 
+ window.__timelines["01-promise"]=tl;
+</script>
+</template>

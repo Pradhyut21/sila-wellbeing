@@ -1,0 +1,37 @@
+<template>
+<style>@font-face{font-family:"Source Serif 4";src:url("assets/fonts/SourceSerif4.ttf") format("truetype");font-weight:200 900;} @font-face{font-family:"Inter";src:url("assets/fonts/Inter.ttf") format("truetype");font-weight:100 900;} @font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono.ttf") format("truetype");font-weight:100 800;}
+ #root{position:absolute;inset:0;width:100%;height:100%;container-type:size;color:#f7f6ef;font-family:"Inter";}
+ [class="08-outcomes-ground"]{position:absolute;inset:0;background:#153f3b;}
+ [class="08-outcomes-top"]{position:absolute;left:96px;top:54px;width:1728px;height:40px;display:flex;align-items:center;justify-content:space-between;font-family:"JetBrains Mono";font-size:23px;letter-spacing:.09em;line-height:1.3;color:#f7f6ef;}
+ [class="08-outcomes-counter"]{font-family:"JetBrains Mono";font-size:23px;}
+ [class="08-outcomes-line"]{position:absolute;left:96px;top:108px;width:1728px;height:2px;background:#e7eadf;}
+ [class="08-outcomes-title"]{position:absolute;left:96px;top:125px;width:1728px;font-family:"Source Serif 4";font-size:72px;font-weight:500;letter-spacing:-.02em;line-height:1.03;margin:0;}
+ [class="08-outcomes-plate"]{position:absolute;left:96px;top:235px;width:1056px;height:660px;border:2px solid #e7eadf;border-radius:8px;overflow:hidden;background:#f7f6ef;}
+ [class="08-outcomes-screen"]{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain;}
+ [class="08-outcomes-notes"]{position:absolute;left:1232px;top:280px;width:580px;color:#f7f6ef;}
+ [class="08-outcomes-tag"]{font-family:"JetBrains Mono";font-size:22px;letter-spacing:.1em;text-transform:uppercase;color:#d5f083;margin:0 0 32px;}
+ [class="08-outcomes-label1"],[class="08-outcomes-label2"]{font-family:"Source Serif 4";font-size:54px;font-weight:500;letter-spacing:-.02em;line-height:1.1;margin:0 0 34px;}
+ [class="08-outcomes-note"]{font-family:"Inter";font-size:28px;font-weight:400;line-height:1.4;color:#e7eadf;margin:0;}
+ [class="08-outcomes-rule"]{height:2px;width:100%;background:#e7eadf;margin:34px 0;}
+ </style>
+<div data-hf-id="hf-82dp" id="root" data-composition-id="08-outcomes" data-width="1920" data-height="1080" data-duration="19.309">
+ <div data-hf-id="hf-shf9" id="frame-08-outcomes-background" class="clip" data-start="0" data-duration="19.309" data-track-index="0"><div data-hf-id="hf-sscy" class="08-outcomes-ground"></div></div>
+ <div data-hf-id="hf-8qh8" class="08-outcomes-top"><span data-hf-id="hf-gq8f">SILA / FROM SIGNAL TO A CONFIRMED NEXT STEP</span><span data-hf-id="hf-9ux1" class="08-outcomes-counter">08 / 08</span></div>
+ <div data-hf-id="hf-i5nh" class="08-outcomes-line"></div>
+ <h1 data-hf-id="hf-ab20" class="08-outcomes-title">Did support connect?</h1>
+ <div data-hf-id="hf-vetd" class="08-outcomes-plate"><img data-hf-id="hf-her5" class="08-outcomes-screen" src="assets/outcomes.png" alt="Actual SILA outcomes screen with synthetic data"></div>
+ <div data-hf-id="hf-6boe" class="08-outcomes-notes"><p data-hf-id="hf-eaeg" class="08-outcomes-tag">SILA / WORKING DEMO</p><p data-hf-id="hf-81rv" class="08-outcomes-label1">Session counts</p><p data-hf-id="hf-b527" class="08-outcomes-label2">Pilot measures proposed</p><div data-hf-id="hf-5j8p" class="08-outcomes-rule"></div><p data-hf-id="hf-0ufw" class="08-outcomes-note">No clinical outcomes claimed</p></div>
+</div>
+<script>
+ const tl=gsap.timeline({paused:true});
+ tl.fromTo('[class="08-outcomes-title"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},0);
+ tl.fromTo('[class="08-outcomes-plate"]',{opacity:0,y:22},{opacity:1,y:0,duration:0.65,ease:'power2.out'},0.2);
+ tl.fromTo('[class="08-outcomes-tag"]',{opacity:0,y:12},{opacity:1,y:0,duration:0.4},1);
+ tl.fromTo('[class="08-outcomes-label1"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},3.3);
+ tl.fromTo('[class="08-outcomes-label2"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},7.2);
+ tl.fromTo('[class="08-outcomes-rule"]',{scaleX:0,transformOrigin:'left center'},{scaleX:1,duration:0.5},10.8);
+ tl.fromTo('[class="08-outcomes-note"]',{opacity:0,y:14},{opacity:1,y:0,duration:0.6,ease:'power2.out'},12);
+ 
+ window.__timelines["08-outcomes"]=tl;
+</script>
+</template>

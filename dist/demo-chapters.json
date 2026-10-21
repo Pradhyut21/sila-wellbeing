@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Overview",
+    "start": 0
+  },
+  {
+    "label": "Consent",
+    "start": 15.877
+  },
+  {
+    "label": "Check-in",
+    "start": 33.312
+  },
+  {
+    "label": "Support",
+    "start": 49.509
+  },
+  {
+    "label": "Sharing",
+    "start": 69.61
+  },
+  {
+    "label": "Referral receipt",
+    "start": 88.602
+  },
+  {
+    "label": "Urgent help",
+    "start": 106.015
+  },
+  {
+    "label": "Outcomes",
+    "start": 126.607
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "passed": 9,
+  "checks": [
+    "WHO-5 11/25 -> 44/100 and incomplete answer blocked",
+    "Recipient approval includes only chosen score, access and physical context",
+    "Decline/reroute cannot auto-forward or accept an old handoff",
+    "Fresh approval for alternate provider, acceptance and distinct contact confirmation",
+    "Revocation withdraws relevant handoffs and hides approved payload",
+    "Urgent disclosure shows UAE ambulance guidance, no live response claim, keyboard close",
+    "Withdrawal preserves already recorded response/contact in synthetic outcome totals",
+    "Reload resets in-memory health state",
+    "All seven views have no horizontal overflow at 390, 768 and 1440px"
+  ],
+  "consoleErrors": []
+}

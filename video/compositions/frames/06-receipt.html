@@ -1,0 +1,44 @@
+<template>
+<style>@font-face{font-family:"Source Serif 4";src:url("assets/fonts/SourceSerif4.ttf") format("truetype");font-weight:200 900;} @font-face{font-family:"Inter";src:url("assets/fonts/Inter.ttf") format("truetype");font-weight:100 900;} @font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono.ttf") format("truetype");font-weight:100 800;}
+ #root{position:absolute;inset:0;width:100%;height:100%;container-type:size;color:#153f3b;font-family:"Inter";}
+ [class="06-receipt-ground"]{position:absolute;inset:0;background:#f7f6ef;}
+ [class="06-receipt-top"]{position:absolute;left:96px;top:54px;width:1728px;height:40px;display:flex;align-items:center;justify-content:space-between;font-family:"JetBrains Mono";font-size:23px;letter-spacing:.09em;line-height:1.3;color:#153f3b;}
+ [class="06-receipt-counter"]{font-family:"JetBrains Mono";font-size:23px;}
+ [class="06-receipt-line"]{position:absolute;left:96px;top:108px;width:1728px;height:2px;background:#28554e;}
+ [class="06-receipt-title"]{position:absolute;left:96px;top:125px;width:1728px;font-family:"Source Serif 4";font-size:72px;font-weight:500;letter-spacing:-.02em;line-height:1.03;margin:0;}
+ [class="06-receipt-plate"]{position:absolute;left:96px;top:235px;width:1056px;height:660px;border:2px solid #28554e;border-radius:8px;overflow:hidden;background:#f7f6ef;}
+ [class="06-receipt-screen-0"],[class="06-receipt-screen-1"],[class="06-receipt-screen-2"],[class="06-receipt-screen-3"]{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain;}
+ [class="06-receipt-notes"]{position:absolute;left:1232px;top:280px;width:580px;color:#153f3b;}
+ [class="06-receipt-tag"]{font-family:"JetBrains Mono";font-size:22px;letter-spacing:.1em;text-transform:uppercase;color:#153f3b;margin:0 0 32px;}
+ [class="06-receipt-label1"],[class="06-receipt-label2"]{font-family:"Source Serif 4";font-size:54px;font-weight:500;letter-spacing:-.02em;line-height:1.1;margin:0 0 34px;}
+ [class="06-receipt-note"]{font-family:"Inter";font-size:28px;font-weight:400;line-height:1.4;color:#28554e;margin:0;}
+ [class="06-receipt-rule"]{height:2px;width:100%;background:#28554e;margin:34px 0;}
+ </style>
+<div data-hf-id="hf-v2u8" id="root" data-composition-id="06-receipt" data-width="1920" data-height="1080" data-duration="17.413">
+ <div data-hf-id="hf-5nc8" id="frame-06-receipt-background" class="clip" data-start="0" data-duration="17.413" data-track-index="0"><div data-hf-id="hf-uffz" class="06-receipt-ground"></div></div>
+ <div data-hf-id="hf-1mbr" class="06-receipt-top"><span data-hf-id="hf-p66r">05 / CONFIRM, DECLINE, OR RE-ROUTE</span><span data-hf-id="hf-29pk" class="06-receipt-counter">06 / 08</span></div>
+ <div data-hf-id="hf-j08w" class="06-receipt-line"></div>
+ <h1 data-hf-id="hf-ms3g" class="06-receipt-title">A referral should never disappear.</h1>
+ <div data-hf-id="hf-6kme" class="06-receipt-plate"><img data-hf-id="hf-qusy" class="06-receipt-screen-0" src="assets/navigator.png" alt="Actual SILA navigator screen"><img data-hf-id="hf-egbb" class="06-receipt-screen-1" src="assets/receipt-declined.png" alt="Actual SILA receipt-declined screen"><img data-hf-id="hf-ek8c" class="06-receipt-screen-2" src="assets/handoff-reroute.png" alt="Actual SILA handoff-reroute screen"><img data-hf-id="hf-a383" class="06-receipt-screen-3" src="assets/receipt-complete.png" alt="Actual SILA receipt-complete screen"></div>
+ <div data-hf-id="hf-gcgt" class="06-receipt-notes"><p data-hf-id="hf-ew8f" class="06-receipt-tag">SILA / WORKING DEMO</p><p data-hf-id="hf-gtao" class="06-receipt-label1">A visible response</p><p data-hf-id="hf-33g6" class="06-receipt-label2">Fresh approval to re-route</p><div data-hf-id="hf-0w10" class="06-receipt-rule"></div><p data-hf-id="hf-z56l" class="06-receipt-note">No provider receives data in this demo</p></div>
+</div>
+<script>
+ const tl=gsap.timeline({paused:true});
+ tl.fromTo('[class="06-receipt-title"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},0);
+ tl.fromTo('[class="06-receipt-plate"]',{opacity:0,y:22},{opacity:1,y:0,duration:0.65,ease:'power2.out'},0.2);
+ tl.fromTo('[class="06-receipt-tag"]',{opacity:0,y:12},{opacity:1,y:0,duration:0.4},1);
+ tl.fromTo('[class="06-receipt-label1"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},3.3);
+ tl.fromTo('[class="06-receipt-label2"]',{opacity:0,y:18},{opacity:1,y:0,duration:0.6,ease:'power2.out'},7.2);
+ tl.fromTo('[class="06-receipt-rule"]',{scaleX:0,transformOrigin:'left center'},{scaleX:1,duration:0.5},10.8);
+ tl.fromTo('[class="06-receipt-note"]',{opacity:0,y:14},{opacity:1,y:0,duration:0.6,ease:'power2.out'},12);
+ tl.fromTo('[class="06-receipt-screen-0"]',{opacity:0},{opacity:1,duration:0.25},0);
+tl.fromTo('[class="06-receipt-screen-0"]',{opacity:1},{opacity:0,duration:0.25,immediateRender:false},7);
+tl.fromTo('[class="06-receipt-screen-1"]',{opacity:0},{opacity:1,duration:0.25},7);
+tl.fromTo('[class="06-receipt-screen-1"]',{opacity:1},{opacity:0,duration:0.25,immediateRender:false},11);
+tl.fromTo('[class="06-receipt-screen-2"]',{opacity:0},{opacity:1,duration:0.25},11);
+tl.fromTo('[class="06-receipt-screen-2"]',{opacity:1},{opacity:0,duration:0.25,immediateRender:false},14);
+tl.fromTo('[class="06-receipt-screen-3"]',{opacity:0},{opacity:1,duration:0.25},14);
+
+ window.__timelines["06-receipt"]=tl;
+</script>
+</template>

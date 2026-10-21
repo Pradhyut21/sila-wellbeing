@@ -1,0 +1,9 @@
+{
+  "name": "sila-wellbeing-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A consent-led, human-confirmed wellbeing referral demonstration for Abu Dhabi.",
+  "scripts": {"start":"node scripts/serve.mjs","test":"node --test tests/*.test.mjs","check":"node --check dist/app.js && node --check dist/domain.mjs"},
+  "license": "MIT"
+}

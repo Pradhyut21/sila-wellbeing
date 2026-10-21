@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01-promise",
+    "title": "Make the next step visible.",
+    "kicker": "SILA / SYNTHETIC PROTOTYPE DEMO",
+    "shot": "hero",
+    "screen": "overview",
+    "narration": "Noticing a change in wellbeing is only the first step. What happens next? SILA helps adults in Abu Dhabi move from an early signal to a visible, human-led care handoff. This is a working prototype, using synthetic journeys only.",
+    "start": 0,
+    "duration": 15.877
+  },
+  {
+    "id": "02-consent",
+    "title": "Your choice. From the start.",
+    "kicker": "01 / CHOOSE WHAT TO SHARE",
+    "shot": "screen",
+    "screen": "consent",
+    "narration": "Start with clear choices. Check-ins are voluntary. SILA does not listen, watch, or monitor in the background. Choose the information you want to use, and revoke future sharing whenever you wish. Identifiable wellbeing information is never offered to employers.",
+    "start": 15.877,
+    "duration": 17.435
+  },
+  {
+    "id": "03-checkin",
+    "title": "Notice a change. Understand its limits.",
+    "kicker": "02 / REFLECT ON THE LAST TWO WEEKS",
+    "shot": "screen",
+    "screen": "checkin",
+    "narration": "The five-item WHO wellbeing check-in supports reflection over the past two weeks. In this example, a lower wellbeing result prompts a choice to seek support. It is not a diagnosis, a treatment recommendation, or a prediction of suicide risk.",
+    "start": 33.312,
+    "duration": 16.197
+  },
+  {
+    "id": "04-support",
+    "title": "A next step that fits your life.",
+    "kicker": "03 / EXPLORE TRUSTED LOCAL PATHWAYS",
+    "shot": "screen",
+    "screen": "support",
+    "narration": "Explore support from self-help to primary care, tele-mental health, and specialist services. Filter by language and how you prefer to connect. Listings show official sources and remind you to confirm eligibility, cost, and availability directly. No appointment or live service connection is promised.",
+    "start": 49.509,
+    "duration": 20.101
+  },
+  {
+    "id": "05-sharing",
+    "title": "Share only what helps.",
+    "kicker": "04 / APPROVE A LIMITED HANDOFF",
+    "shot": "screen",
+    "screen": "handoff",
+    "narration": "Before a handoff, review the exact information and recipient. Share a wellbeing summary, access preferences, or relevant physical health context separately. The optional care summary helps a professional consider mental and physical needs together. Consent remains specific and visible.",
+    "start": 69.61,
+    "duration": 18.992
+  },
+  {
+    "id": "06-receipt",
+    "title": "A referral should never disappear.",
+    "kicker": "05 / CONFIRM, DECLINE, OR RE-ROUTE",
+    "shot": "screen",
+    "screen": "navigator",
+    "narration": "Now the navigator receives a simulated referral. A human can accept it, decline it with a reason, or suggest a better route. The receipt shows what happened and what comes next. Here, a decline leads to an alternative, with fresh permission before sharing again.",
+    "start": 88.602,
+    "duration": 17.413
+  },
+  {
+    "id": "07-urgent",
+    "title": "Urgent help goes to humans.",
+    "kicker": "ALWAYS AVAILABLE / NEED HELP NOW",
+    "shot": "screen",
+    "screen": "urgent",
+    "narration": "Need help now is always visible. Someone reporting immediate danger sees emergency guidance straight away, without waiting for a score or an AI conversation. SILA does not claim to monitor emergencies or provide a live crisis response. Licensed professionals remain the final decision-makers.",
+    "start": 106.015,
+    "duration": 20.592
+  },
+  {
+    "id": "08-outcomes",
+    "title": "Did support connect?",
+    "kicker": "SILA / FROM SIGNAL TO A CONFIRMED NEXT STEP",
+    "shot": "outro",
+    "screen": "outcomes",
+    "narration": "The dashboard makes the connection gap measurable: acknowledgement, contact, waiting time, follow-up, safety events, and fairness. Every result shown here is simulated, not a clinical outcome. SILA makes the next step visible, while the person stays in control and humans lead care.",
+    "start": 126.607,
+    "duration": 19.309
+  }
+]
